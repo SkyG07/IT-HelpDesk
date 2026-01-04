@@ -4,7 +4,7 @@ import { Sun, Moon } from "lucide-react";
 
 const Navbar = () => {
   const { user, logout } = useAuth();
-  const [theme, setTheme] = useState("pastel"); // default light theme
+  const [theme, setTheme] = useState("dim"); // default light theme
 
   // Apply theme to HTML and save to localStorage
   useEffect(() => {
